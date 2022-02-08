@@ -2,7 +2,7 @@
 <div>
   <aside class="site-sidebar">
         <div class="site-sidebar-inner h-card">
-            <a href="index.html" rel="me" class="person u-url">
+            <router-link to="/" rel="me" class="person u-url">
                 <div class="person-avatar u-photo">
                     <img src='../assets/img/ravi-patel.jpg' alt="altText" class="avatar"/>
                     <!-- <img :src="url" alt="" class="avatar"> -->
@@ -11,28 +11,28 @@
                     <h1 class="person-title p-name">Ravi Patel</h1>
                     <h2 class="person-subtitle p-job-title p-note">Front-End Developer</h2>
                 </div>
-            </a>
+            </router-link>
 
             <nav class="block main-navigation">
                 <div class="navigation-extend-bar">
                     <div class="social-icons">
-                        <a rel="me" href="cdn-cgi/l/email-protection.html#5339323036381339273c3e7d3e36" class="button button-icon u-email" title="mail: jacek@jtom.me">
+                        <a rel="me" href="mailto:ravivadaj@gmail.com" class="button button-icon u-email" title="mail: jacek@jtom.me">
                             <i class="fa fa-envelope"></i>
                         </a>
 
-                        <a rel="me" href="https://www.linkedin.com/in/jtompl" class="button button-icon" title="linkedin: jtompl">
+                        <a rel="me" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="button button-icon" title="linkedin: jtompl">
                             <i class="fa fa-linkedin-square"></i>
                         </a>
 
-                        <a rel="me" href="https://github.com/jtomaszewski" class="button button-icon" title="github: jtomaszewski">
+                        <a rel="me" href="https://github.com/ravilp92" class="button button-icon" title="github: jtomaszewski">
                             <i class="fa fa-github-square"></i>
                         </a>
 
-                        <a rel="me" href="https://facebook.com/jtomaszewski" class="button button-icon" title="facebook: jtomaszewski">
+                        <a rel="me" href="https://www.facebook.com/rm.patel.14473426" class="button button-icon" title="facebook: jtomaszewski">
                             <i class="fa fa-facebook-square"></i>
                         </a>
 
-                        <a rel="me" href="https://twitter.com/jtompl" class="button button-icon" title="twitter: @jtompl">
+                        <a rel="me" href="https://twitter.com/PatelRaviL" class="button button-icon" title="twitter: @jtompl">
                             <i class="fa fa-twitter-square"></i>
                         </a>
                     </div>
@@ -44,15 +44,15 @@
 
                 <div class="navigation-extendable">
                     <ul>
-                        <li class=""><a href="skills-and-offer/index.html">Offer</a></li>
-                        <li class=""><a href="portfolio/index.html">Portfolio</a></li>
-                        <li class=""><a href="contact/index.html">Contact me</a></li>
+                        <li><router-link to="/Offer">Offer</router-link></li>
+                        <li><a href="portfolio/index.html">Portfolio</a></li>
+                        <li><a href="contact/index.html">Contact me</a></li>
                     </ul>
                     <ul>
-                        <!-- <li class=""><a href="/about-me/">About me</a></li> -->
-                        <!-- <li class=""><a href="/blog">Tech blog</a></li> -->
-                        <li class=""><a href="cv/index.html">CV</a></li>
-                        <li class=""><a href="talks/index.html">Presentations</a></li>
+                        <!-- <li><a href="/about-me/">About me</a></li> -->
+                        <!-- <li><a href="/blog">Tech blog</a></li> -->
+                        <li><a href="cv/index.html">CV</a></li>
+                        <li><a href="talks/index.html">Presentations</a></li>
                         <li><a href="https://jackthenomad.com/" target="_blank">Personal blog</a></li>
                     </ul>
                 </div>
@@ -62,23 +62,23 @@
                 <div class="block-title">Get in touch</div>
                 <div class="block-content">
                     <div class="social-icons">
-                        <a rel="me" href="cdn-cgi/l/email-protection.html#d6bcb7b5b3bd96bca2b9bbf8bbb3" class="button button-icon u-email" title="mail: jacek@jtom.me">
+                        <a rel="me" href="mailto:ravivadaj@gmail.com" class="button button-icon u-email" title="mail: ravivadaj@gmail.com" target="_blank">
                             <i class="fa fa-envelope"></i>
                         </a>
 
-                        <a rel="me" href="https://www.linkedin.com/in/jtompl" class="button button-icon" title="linkedin: jtompl">
+                        <a rel="me" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="button button-icon" title="linkedin: jtompl" target="_blank">
                             <i class="fa fa-linkedin-square"></i>
                         </a>
 
-                        <a rel="me" href="https://github.com/jtomaszewski" class="button button-icon" title="github: jtomaszewski">
+                        <a rel="me" href="https://github.com/ravilp92" class="button button-icon" title="github: ravilp92" target="_blank">
                             <i class="fa fa-github-square"></i>
                         </a>
 
-                        <a rel="me" href="https://facebook.com/jtomaszewski" class="button button-icon" title="facebook: jtomaszewski">
+                        <a rel="me" href="https://www.facebook.com/rm.patel.14473426" class="button button-icon" title="facebook: rm.patel.14473426" target="_blank">
                             <i class="fa fa-facebook-square"></i>
                         </a>
 
-                        <a rel="me" href="https://twitter.com/jtompl" class="button button-icon" title="twitter: @jtompl">
+                        <a rel="me" href="https://twitter.com/PatelRaviL" class="button button-icon" title="twitter: @PatelRaviL" target="_blank">
                             <i class="fa fa-twitter-square"></i>
                         </a>
                     </div>
@@ -92,31 +92,31 @@
                 <div class="block-content">
                     <ul class="posts-list">
                         <li>
-                            <a href="https://medium.com/@jtomaszewski/how-we-will-get-rid-of-fake-news-by-2030-b70e330fbbaa">
+                            <a href="https://medium.com/@jtomaszewski/how-we-will-get-rid-of-fake-news-by-2030-b70e330fbbaa" target="_blank">
                                 <div class="post-title">How AI will help us get rid of fake news by 2030</div>
                                 <div class="post-date">Sep 17, 2019</div>
                             </a>
                         </li>
                         <li>
-                            <a href="https://medium.com/@jtomaszewski/handling-asynchronous-actions-in-redux-86724ed87c6c">
+                            <a href="https://medium.com/@jtomaszewski/handling-asynchronous-actions-in-redux-86724ed87c6c" target="_blank">
                                 <div class="post-title">Handling asynchronous actions in Redux</div>
                                 <div class="post-date">Jul 9, 2019</div>
                             </a>
                         </li>
                         <li>
-                            <a href="https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164">
+                            <a href="https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164" target="_blank">
                                 <div class="post-title">Why TypeScript is the best way to write Front-end in 2019</div>
                                 <div class="post-date">Dec 24, 2018</div>
                             </a>
                         </li>
                         <li>
-                            <a href="https://medium.com/@jtomaszewski/how-to-write-good-composable-and-pure-components-in-angular-2-1756945c0f5b">
+                            <a href="https://medium.com/@jtomaszewski/how-to-write-good-composable-and-pure-components-in-angular-2-1756945c0f5b" target="_blank">
                                 <div class="post-title">How to write good, composable and pure components in Angular 2+</div>
                                 <div class="post-date">Jun 7, 2018</div>
                             </a>
                         </li>
                         <li>
-                            <a href="https://medium.com/@jtomaszewski/mastering-the-angular-performance-by-dropping-the-magic-of-change-detector-2b605b444b04">
+                            <a href="https://medium.com/@jtomaszewski/mastering-the-angular-performance-by-dropping-the-magic-of-change-detector-2b605b444b04" target="_blank">
                                 <div class="post-title">Mastering the Angular performance—by dropping the magic of Change Detector
                                 </div>
                                 <div class="post-date">May 17, 2018</div>
@@ -150,7 +150,27 @@
                 </div>
             </div>
         </div>
-    </aside>
+  </aside>
+  <div class="site-main">
+    <div class="site-main-inner">
+      <div class="home-section">
+        <div class="home-section-inner">
+          <div class="home-heading">Hi, I'm Jack,</div>
+          <h2 class="home-subheading">
+            a freelance software engineer specialized in<br />
+            both <strong>front-end and back-end</strong> web development.
+          </h2>
+          <div class="home-buttons">
+            <a href="skills-and-offer/index.html" class="button button-outline button-white">Offer</a>
+            <br />
+            <a href="portfolio/index.html" class="button button-outline button-white">Portfolio</a>
+            <br />
+            <a href="https://jackthenomad.com/" target="_blank" class="button button-outline button-white">Blog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </template>
 
