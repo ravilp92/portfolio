@@ -2135,15 +2135,15 @@ h4 {
 }
 ::-moz-selection {
   color: #fff;
-  background: #a51a1a;
+  background: #364d63;
 }
 ::selection {
   color: #fff;
-  background: #a51a1a;
+  background: #364d63;
 }
 .red,
 a {
-  color: #bb1e1e;
+  color: #364d63;
 }
 h1 {
   font-size: 36px;
@@ -2304,8 +2304,8 @@ blockquote {
   margin-right: 0.2em;
 }
 .button.button-red {
-  background-color: #af2222;
-  border: 1px solid #9a1e1e;
+  background-color: hsl(210deg 30% 30%);
+  border: 1px solid hsl(210deg 30% 30%);
   color: #fff;
   padding: 0.7em 1.2em;
   font-weight: 400;
@@ -2588,7 +2588,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 @media screen and (max-width: 1000px) {
   .main-navigation .navigation-extendable {
-    height: 0;
+    height: 0;  
     -webkit-transition: height 0.5s;
     transition: height 0.5s;
   }
@@ -2617,7 +2617,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   position: relative;
 }
 .main-section {
-  max-width: 850px;
+  /* max-width: 850px; */
   padding: 50px;
   background-color: #fff;
   color: #333;
@@ -2686,7 +2686,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     display: block;
     width: 5px;
     height: 5px;
-    background-color: rgba(187, 30, 30, 0.8);
+    background-color: hsl(209deg 29% 30%);
   }
   .timeline_element:first-child .timeline_element-date {
     padding-top: 0;
@@ -2823,13 +2823,12 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   .home-section {
     position: relative;
     padding: 40px 20px;
-    background: 0 0;
     font-size: 10px;
   }
 }
 .tech-tags a,
 .tech-tags a:hover {
-  background-color: rgba(175, 34, 34, 0.8);
+  background-color: hsl(210deg 30% 30%);
 }
 @media screen and (max-width: 767px) {
   .home-section {
@@ -2918,7 +2917,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   color: inherit;
 }
 .portfolio-timeline .project-link:hover {
-  color: #bb1e1e;
+  color: hsl(210deg 30% 30%);
 }
 .portfolio-timeline .project-text {
   width: 50%;
@@ -2946,7 +2945,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 .portfolio-timeline .project-image {
   width: 50%;
   padding-left: 30px;
-  text-align: center;
+  text-align: left;
   float: left;
 }
 @media screen and (max-width: 1000px) {
