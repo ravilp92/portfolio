@@ -8,7 +8,7 @@
             <div class="home-heading">Hi, I'm Ravi,</div>
             <h2 class="home-subheading">
               a software engineer specialized in<br />
-              <strong>front-end </strong> web development.
+              <strong>Front-end </strong> web development.
             </h2>
           </div>
         </div>
